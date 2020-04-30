@@ -1,0 +1,36 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MironovaGV/mocking.git"
+  },
+  "author": "MironovaGV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MironovaGV/mocking/issues"
+  },
+  "homepage": "https://github.com/MironovaGV/mocking#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^25.5.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^25.5.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
